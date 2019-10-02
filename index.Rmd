@@ -116,7 +116,7 @@ But, as [Zara Rahman](https://www.theengineroom.org/when-the-openwashing-is-over
 It is therefore crucial to balance supply and demand in open data. 
 
 ---
-### The open data principles do not consider user needs 
+### The open data principles do not really consider user needs 
 
 .pull-left[
 ![](./img/sebastopol.png)
@@ -225,7 +225,7 @@ Source : [opendatabarometer.org/4thedition/report/](opendatabarometer.org/4thedi
 
 
 .pull-left[
-In a panel of 12 major Frenh cities, we discovered that:
+In a panel of 12 major French cities, we discovered that:
 - **Half of datasets** have a description with **less than 180 characters** (less than a tweet). 
 - **4% of datasets** have a description with **more than 1000 characters** (less than half a page).
 
@@ -233,7 +233,7 @@ This is very common to find open datasets with a very small documentation, makin
 ]
 --
 .pull-right[
-The model [Datatasheet for Datasets](https://arxiv.org/abs/1803.09010) helps data producers document when, where, and how the training data was gathered, its recommended use cases, and privacy aspects. 
+The model [Datasheet for Datasets](https://arxiv.org/abs/1803.09010) helps data producers document when, where, and how the training data was gathered, its recommended use cases, and privacy aspects. 
 ![](./img/datasheet.png)
 ]
 
@@ -258,7 +258,7 @@ class: inverse, center, middle
 Open data is always at the crossroad between an organisation, data and a community. Without one of these spheres, open data cannot **create impact**. 
 ![](./img/canvas.png)
 ]
-
+--
 .pull-right[
 In France, we created 1,5 year ago [TeamOpenData](teamopendata.org), a forum which now gathers more than 700 open data profesionals and help them answer their questions, keep the community informed and starts new projects. 
 ![](./img/teamopendata.png)

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Towards Demand-Driven open data</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Samuel Goëta" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Towards Demand-Driven open data
+## How can open data projects become more user-centric?
+### Samuel Goëta
+### 10/2/2019. Recife (Brasil), GovInPlay
+
+---
+
+
+layout: true
+
+&lt;style&gt;
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+&lt;/style&gt;
+
+
+&lt;div class='my-footer'&gt;&lt;span&gt;Gov In Play&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+
+
+---
+
+class: center, middle
+
+Find these slides online: http://datactivist.coop/recife
+
+Source repository : https://github.com/datactivist/recife
+
+
+All Datactivist productions are freely reusable according to the [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt;
+&lt;BR&gt;
+
+![:largeur 60%](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+### About Datactivist
+
+.pull-left[
+- Datactivist is a French cooperative company un specialised in open data created in 2016 with a mission to .red[**open data and make them useful**].
+
+- We are commited to open data as it can effectively .red[**reduce information asymetries**] and create a level-playing field. We work with data producers as well as reusers in public organisations, corporations and NGos.
+
+- We practice what we preach and our dedication to the .red[**commons]: we are a workers co-operative and our productions are freely usable by anyone.
+
+- We believe .red[**research**] can help us better understand and solve the issue we face in the open data field
+]
+
+.pull-right [
+![](./img/stickerdatapeople.png)
+]
+
+
+---
+### Open data in France: the tower of Pisa
+
+&lt;img style="float: right;margin:10px;width:200px" src="./img/pise.jpeg"&gt;
+
+Since 2016, the French law for a digital Republic has made .red[**compulsory for all actors with a public service mission**] to publish their data online and make them freely re-usable (only for organisations with more than 50 agents). 
+
+Specific laws reinforce this legal obligation for transport, public contracting, government subsidies… They ensure shared data standards are used so that locally produced data are .red[**interoparable**].
+
+--
+
+But… French FOI (Freedom of Information) law is one of the weakest in the world according to the [Global Right to Information Rating](http://www.rti-rating.org/) and FOIA requests usually last more than a year. 
+
+???
+tell the story of PRADA request
+
+---
+### Supply-side vs demand-side open data
+
+Initially open data principles aim at setting the default to open: 
+
+.pull-left[
+**Supply-side**: open data means proactive disclosure of public information online and in open formats before it is asked for. 
+]
+
+.pull-right[
+**Demand-side**: FOI and RTI expect someone to request for the data. Usually, answers are given directly to the requesters without publication of the document/data. 
+]
+
+The open data movements shifts attention away from FOI, and diverts resources from fulfilment of access requests. But, as [Zara Rahman](https://www.theengineroom.org/when-the-openwashing-is-over-protecting-the-right-to-know/) puts, FOI is the "**plumbing underneath what has become an ecosystem focused on open government and open data**".
+
+It is therefore crucial to balance supply and demand in open data. 
+
+---
+### The open data principles do not consider user needs 
+
+.pull-left[
+![](./img/sebastopol.png)
+
+
+
+Source: [Yu &amp; Robinson (2012)](https://www.uclalawreview.org/pdf/discourse/59-11.pdf)
+
+]
+
+.pull-right[
+
+The open data principles are mainly technical and do not look at the content of the data: 
+
+&gt; *An electronic release of the propaganda statements made by North Korea’s political leadership, for example, might satisfy all eight of these requirements and might not tend to promote any additional transparency or accountability on the part of the notoriously closed and unaccountable regime.*
+
+]
+
+--- 
+### "We want raw data": demand as a pre-requisite and a premise
+
+.pull-left[
+![](./img/raw.png)
+]
+
+.pull-right[
+"We want raw data": demand of the public is a pre-requisite for open data projects. But it is also a premise, open data has no purpose if no reuses the data. 
+]
+
+
+---
+### Open data means invisible work
+
+.pull-left[
+.reduite[![](./img/pipeline.png)]
+]
+
+.pull-right[
+
+Rather than merely uploading a file, opening a dataset takes effort and energy. This invisible work is essential to make data usable. 
+
+This work is justified by the demand of the users.
+]
+
+---
+class: middle
+### Moving data creates friction
+
+&gt;  *At every interface between two surfaces, friction consumes energy, produces heat, and wears down moving parts. […] Every movement of data across an interface comes at some **cost in time, energy, and human attention**. Every interface between groups and organizations, as well as between machines, represents a point of resistance where data can be garbled, misinterpreted, or lost. In social systems, data friction consumes energy and produces turbulence and heat – that is, conflicts, disagreements, and inexact, unruly processes.*
+
+Source : [Edwards et al., 2011](http://sss.sagepub.com/content/41/5/667)
+
+---
+### An obstacle course for reusers
+
+.pull-left[
+.reduite[![](./img/Data-pipeline-v2-EN.png)
+]]
+
+.pull-right[
+* "Data are hard to find"
+
+* "The same dataset is not open everywhere"
+
+* "Data are often too agregate and not granular enough"
+
+* "Dataset lack update"
+
+* "Portals target developers" 
+]
+
+
+---
+### The issue of data findability
+
+.pull-left[
+*“Data findability is a major challenge. We have data portals and registries, but government agencies under one national government still publish data in different ways and different locations. Moreover, they have different protocols for license and formats(…)*
+
+_**Data findability is a prerequisite for open data to fulfill its potential and currently most data is very hard to find.**”_
+
+
+Source : [index.okfn.org/insights/](index.okfn.org/insights/)
+
+]
+
+.pull-right[
+![](./img/findability.png)
+]
+---
+### The issue of data quality
+
+.pull-left[
+*"**Government data is usually incomplete, out of date, of low quality, and fragmented.** In most cases, open data catalogues or portals are manually fed as the result of informal data management approaches. Procedures, timelines, and responsibilities are frequently unclear among government institutions tasked with this work. This makes the overall open data management and publication approach weak and prone to multiple errors."*
+
+Source : [opendatabarometer.org/4thedition/report/](opendatabarometer.org/4thedition/report/)
+
+]
+
+.pull-right[
+![](./img/barometer.png)
+]
+---
+### The issue of documentation 
+
+
+.pull-left[
+In a panel of 12 major Frenh cities, we discovered that:
+- **Half of datasets** have a description with **less than 180 characters** (less than a tweet). 
+- **4% of datasets** have a description with **more than 1000 characters** (less than half a page).
+
+This is very common to find open datasets with a very small documentation, making the data almost usable. 
+]
+
+.pull-right[
+The model [Datatasheet for Datasets](https://arxiv.org/abs/1803.09010) helps data producers document when, where, and how the training data was gathered, its recommended use cases, and privacy aspects. 
+![](./img/datasheet.png)
+]
+
+---
+### Publish with a purpose: a shift from the original open data principles
+
+&gt; *Over the past decade, the open data movement has been quite successful at promoting the idea of open data as a key element of good governance. However, international support for open data has not yet resulted in large-scale institutional changes in how most governments use and share data. Even when data is available, its use in responses to pressing policy challenges—e.g. sustainability, food security, growth—has progressed slowly.*
+
+&gt; *Inthere has been a growing recognition that opening up data in isolation is less effective than it can be if .red[**targeted at solving specific policy problems**] — that “publish with purpose” can **deliver more than “publish and they will come”**.
+
+Source : [Open Data Charter Strategy 2018](https://medium.com/@opendatacharter/publishing-with-purpose-introducing-our-2018-strategy-ddbf7ab46098)
+---
+class: inverse, center, middle
+
+## So what can we do that users get the data they need? 
+
+
+---
+### Create a community
+
+.pull-left[
+Open data is always at the crossroad between an organisation, data and a community. Without one of these spheres, open data cannot **create impact**. 
+![](./img/canvas.png)
+]
+
+.pull-right[
+In France, we created 1,5y ago [TeamOpenData](teamopendata.org), a forum which now gathers more than 700 open data profesionals and help them answer their questions, keep the community informed and starts new projects. 
+![](./img/teamopendata.png)
+
+]
+
+---
+### Collect user's needs
+---
+
+class: inverse, center, middle
+  
+# Thanks !
+
+Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div>` "
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

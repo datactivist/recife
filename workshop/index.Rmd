@@ -116,7 +116,7 @@ class:middle,inverse,center
 ### .red[Economia de tempo] entre departamentos diversos
 
 Responder com menor frequência a pedidos individuais devido à publicação de dados	:		
-![](img/pedidos.png)
+![](./img/pedidos.png)
 
 ---
 ### Abrir as possibilidades de .red[cruzamento de dados]

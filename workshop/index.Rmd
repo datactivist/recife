@@ -145,7 +145,7 @@ Exemplo de [Dataviz Challenge na França](https://datactivist.coop/datavizchalle
 
 Exemplo de dataviz de bicicletas self-service sendo utilizadas :				
 
-![](img/image53.png)			
+![](img/image52.png)			
 	
 
 ---
@@ -232,7 +232,7 @@ class:inverse,middle,center
 ### Ajudar os cidadãos na .red[compreensão de fenômenos complexos]
 
 
-.red[USAFacts](https://usafacts.org) :
+[USAFacts](https://usafacts.org) :
 ![](img/usafacts.gif)
 
 ---

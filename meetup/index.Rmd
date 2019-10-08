@@ -314,7 +314,15 @@ class:inverse,middle,center
 ---
 ### Permitir o desenvolvimento de .red[novos serviços]
 
+![](meilleursagents.png)
+---
+### Permitir o desenvolvimento de .red[novos serviços]
+
 ![](quiditmiam.jpg)
+---
+### Permitir o desenvolvimento de .red[novos serviços]
+
+.center[.reduite[![](recife.jpeg)]]
 ---
 
 ### Permitir o desenvolvimento de .red[novos serviços]

@@ -1,7 +1,7 @@
 ---
-title: "Dados abertos e novós negocios: exemplos nacionas e de além-mar"
+title: "Dados abertos e novos negócios: exemplos nacionas e de além-mar"
 subtitle: "Palestra (Prefeitura de Recife, Emprel, AFD)"
-author: "Samuel Goëta & Allyson Palisser, Datactivist"
+author: "Breno Alencar, EMPREL - Samuel Goëta & Allyson Palisser, Datactivist"
 date: "Recife, `r Sys.Date()`"
 output:
   SlidesDatactivist::moon_reader:
@@ -18,7 +18,7 @@ output:
           </div>
         </div>`
 params:
-  event: Dados abertos e novós negocios, exemplos nacionas e de além-mar
+  event: Dados abertos e novos negócios, exemplos nacionas e de além-mar
   slug: recife/meetup
 ---
 
@@ -53,11 +53,11 @@ layout: true
 
 class: center, middle
 
-### Esta apresentação online : `r paste0("http://datactivist.coop/", params$slug)`
+### Esta apresentação está online em: `r paste0("http://datactivist.coop/", params$slug)`
 
 Fontes : `r paste0("https://github.com/datactivist/", params$slug)`
 
-As produções do Datactivist são livremente reutilizáveis nos termos da licença [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+As produções da Datactivist são livremente reutilizáveis nos termos da licença [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
 <BR>
 <BR>
@@ -94,15 +94,15 @@ Nem todos os usuários são autenticados. Nem todos eles comunicam sobre os seus
 ---
 ### Para que serve dados abertos? .red[ em uma imagem]
 
-Nous n'évaluons pas facilement tous les bénéfices de l'open data :
+Nós não avaliamos facilmente todos os benefícios da abertura de dados:
 ![](https://datactivist.coop/recife/workshop/./img/image46.png)
 
 ---
-### Le potentiel économique de l'open data est énorme
+### O potencial econômico da abertura de dados é enorme
 <img style="float: right;margin:10px" src="mckinsey.svg">
 In 2013, McKinsey released a report suggesting open data could help unlock annually:
 ### .red[3 to 5 trillion $]
-Exemple : Monsanto acquired the Climate Corporation, a ompany that leverages open data to inform farmers for approximately **1.1 billion $**
+Exemple : Monsanto acquired the Climate Corporation, a company that leverages open data to inform farmers for approximately **1.1 billion $**
 
 ---
 class:middle,inverse,center
@@ -127,7 +127,7 @@ class:middle,inverse,center
 
 * **Adaptabilidade**: dados adaptados à procura (formatos, natureza, serviços)
 
-* **Igualdade** : dados acessíveis a todos, sem restrições ou discriminação			
+* **Igualdade** : dados acessíveis à todos, sem restrições ou discriminação			
 ]
 			
 ---
@@ -140,7 +140,7 @@ Responder com menor frequência a pedidos individuais devido à publicação de 
 ---
 ### Abrir as possibilidades de .red[cruzamento de dados]
 
-Exemplo de bicicletas self-service em Nova York: comparando modelos e usos
+Exemplo de bicicletas compartilhadas em Nova York: comparando modelos e usos
 
 .pull-left[
 ![](https://datactivist.coop/recife/workshop/img/image7.png)
@@ -162,7 +162,7 @@ Exemplo de [Dataviz Challenge na França](https://datactivist.coop/datavizchalle
 
 ### Questionando .red[políticas públicas]
 
-Exemplo de dataviz de bicicletas self-service sendo utilizadas :				
+Exemplo de dataviz de bicicletas compartilhadas sendo utilizadas :				
 
 ![](https://datactivist.coop/recife/workshop/img/image52.png)			
 	
@@ -207,7 +207,7 @@ Graou : toda a informação para os maquinistas a partir dos dados abertos da sn
 ### Melhorar o .red[conhecimento dos sistemas de informação] 
 
 .pull-left[
-* Descubra novos dados
+* Descubra novos conjuntos de dados
 
 * Relance projetos de mapeamento de dados
 
@@ -236,7 +236,7 @@ Graou : toda a informação para os maquinistas a partir dos dados abertos da sn
 ---
 class:inverse,middle,center
 
-# Para que serve dados abertos?
+# Para que serve os dados abertos?
 
 # .red[...para melhor informar os cidadãos e a checagem de informações]
 
@@ -303,26 +303,26 @@ Exemplo da base de dados de acidentes rodoviários:
 [source](https://www.nytimes.com/interactive/2018/03/19/upshot/race-class-white-and-black-men.html)
 
 ---
-### Para a .red[jornalismo de dados]
+### Para o .red[jornalismo de dados]
 
 [![](https://datactivist.coop/recife/workshop/img/image24.png)](https://twitter.com/i/web/status/1010012782253826048)
 				
 ---
 
-### Para a .red[engajamento dos cidadãos]
+### Para o .red[engajamento dos cidadãos]
 
 ![](https://datactivist.coop/recife/workshop/img/image49.png)
 
 ---
 
-### Para a .red[engajamento dos cidadãos]
+### Para o .red[engajamento dos cidadãos]
 
 .reduite[![](https://datactivist.coop/recife/workshop/img/image54.png)]
 
 ---
 class:inverse,middle,center
 
-# Para que serve dados abertos?
+# Para que serve os dados abertos?
 
 # .red[...para a criação de valor econômico e social]
 
@@ -351,7 +351,7 @@ Waze, maps, citymapper…
 ![](https://datactivist.coop/recife/workshop/img/apps.png)
 
 ---
-### Pela .red[atratividade do território]
+### Para a .red[atratividade territorial]
 
 .pull-left[Os serviços são instalados em cidades onde os dados estão disponíveis, completos e de alta qualidade.
 

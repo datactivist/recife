@@ -1,6 +1,6 @@
 ---
 title: "Dados abertos e novos negócios: exemplos nacionas e de além-mar"
-subtitle: "Palestra (Prefeitura de Recife, Emprel, AFD)"
+subtitle: "Palestra (Prefeitura de Recife, Emprel, Datactivist, AFD)"
 author: "Breno Alencar, EMPREL - Samuel Goëta & Allyson Palisser, Datactivist"
 date: "Recife, `r Sys.Date()`"
 output:
@@ -382,4 +382,8 @@ class: inverse, center, middle
   
 # Obrigado !
 
-Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)
+Contato : [brenoalencar@recife.pe.gov.br](mailto:brenoalencar@recife.pe.gov.br)
+
+Contato : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)
+
+Contato : [allyson@datactivist.coop](mailto:allyson@datactivist.coop)

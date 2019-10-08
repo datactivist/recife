@@ -53,7 +53,7 @@ layout: true
 
 class: center, middle
 
-### Esta apresentação está online em: `r paste0("http://datactivist.coop/", params$slug)`
+### A apresentação está online em: `r paste0("http://datactivist.coop/", params$slug)`
 
 Fontes : `r paste0("https://github.com/datactivist/", params$slug)`
 
@@ -80,7 +80,7 @@ class: inverse, center, middle
 .pull-right[
 A Open Data Pipeline é um modelo de processo de abertura de dados constituído em 7 etapas. 
 
-Essas 7 etapas podem ter uma importância maior ou menor segundo os conjuntos de dados e os contextos organisacionais. 
+Essas 7 etapas podem ter uma importância maior ou menor segundo os conjuntos de dados e os contextos organizacionais. 
 
 As vezes é necessário voltar para obter a abertura de um conjunto de dados. 
 
@@ -155,7 +155,7 @@ Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collabora
 * Dados ocultos nos sistemas de informação: explorar as bases de dados, reconstruir os esquemas e extrair os dados
 
 
-* Os dados que podem servir a utilizadores Des données qui peuvent servir à des usagers mal-intencionados: prever os riscos e os perigos da abertura
+* Os dados que podem servir a utilizadores também podem servir a usuários mal-intencionados: prever os riscos e os perigos da abertura
 
 
 * Os dados que não foram pensados para a abertura: melhorar a qualidade e a inteligibilidade 

@@ -1,30 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Open Data Pipeline: as etapas da abertura de um conjunto de dados</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Samuel Goëta &amp; Allyson Pallisser, Datactivist" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Open Data Pipeline: as etapas da abertura de um conjunto de dados
+## Workshop dia 2 (Prefeitura do Recife, Emprel, AFD)
+### Samuel Goëta &amp; Allyson Pallisser, Datactivist
+### Recife, 2019-10-07
+
 ---
-title: "Open Data Pipeline: as etapas da abertura de um conjunto de dados"
-subtitle: "Workshop dia 2 (Prefeitura do Recife, Emprel, AFD)"
-author: "Samuel Goëta & Allyson Pallisser, Datactivist"
-date: "Recife, `r Sys.Date()`"
-output:
-  SlidesDatactivist::moon_reader:
-    css: [default, datactivist, datactivist-fonts]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      beforeInit: "macros.js"
-      slideNumberFormat: |
-        <div class="progress-bar-container">
-          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
-          </div>
-        </div>`
-params:
-  event: Open Data Pipeline, as etapas da abertura de dados
-  slug: recife/workshop2/
----
+
 
 layout: true
 
-<style>
+&lt;style&gt;
 .remark-slide-number {
   position: inherit;
 }
@@ -43,24 +41,24 @@ layout: true
   background-color: #e95459;
 }
 
-</style>
+&lt;/style&gt;
 
 
-`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+&lt;div class='my-footer'&gt;&lt;span&gt;Open Data Pipeline, as etapas da abertura de dados&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
 
 
 ---
 
 class: center, middle
 
-### Esta apresentação está online em: `r paste0("http://datactivist.coop/", params$slug)`
+### Esta apresentação está online em: http://datactivist.coop/recife/workshop2/
 
-Fontes : `r paste0("https://github.com/datactivist/", params$slug)`
+Fontes : https://github.com/datactivist/recife/workshop2/
 
 As produções da Datactivist são livremente reutilizáveis nos termos da licença [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
-<BR>
-<BR>
+&lt;BR&gt;
+&lt;BR&gt;
 
 ![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 
@@ -90,8 +88,8 @@ As vezes é necessário voltar para obter a abertura de um conjunto de dados.
 ### A circulação dos dados provoca fricções
 
 
->Cada movimento de dados através de uma interface tem um custo em tempo, energia e atenção humana. Cada interface entre os grupos e as organizações, assim que com as máquinas, representa um ponto de resistência onde os dados podem ser sofrer um problema, serem mal interpretados ou perdidos. 
->Nos sistemas locais, a fricção dos dados consome energia e produz turbulência e calor - ou seja, conflitos, desacordos e processos indisciplinados e não necessariamente corretos.
+&gt;Cada movimento de dados através de uma interface tem um custo em tempo, energia e atenção humana. Cada interface entre os grupos e as organizações, assim que com as máquinas, representa um ponto de resistência onde os dados podem ser sofrer um problema, serem mal interpretados ou perdidos. 
+&gt;Nos sistemas locais, a fricção dos dados consome energia e produz turbulência e calor - ou seja, conflitos, desacordos e processos indisciplinados e não necessariamente corretos.
 
 Edwards, P. N. et al. (2011) [‘Science friction: Data, metadata, and collaboration’](https://journals.sagepub.com/doi/abs/10.1177/0306312711413314), _Social Studies of Science_, 41(5)
 
@@ -304,3 +302,96 @@ class: inverse, center, middle
 # Obrigado !
 
 Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div>` "
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

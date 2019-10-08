@@ -290,3 +290,9 @@ Plus de 120 points de controle pour vérifier la qualité des données
 ![](https://datactivist.coop/recife/img/canvas.png)
 ]
 
+---
+class: inverse, center, middle
+  
+# Obrigado !
+
+Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)

@@ -83,7 +83,9 @@ class:middle, center, inverse
 
 ### Os dados abertos .red[beneficiam a todos]
 
-.center[.reduite[![](https://datactivist.coop/recife/workshop/img/image32.png)]]
+.center[.reduite[
+![](https://datactivist.coop/recife/workshop/img/image32.png)
+]]
 
 ---
 ### É difícil conhecer .red[todos os usos dos dados abertos]
@@ -105,6 +107,10 @@ In 2013, McKinsey released a report suggesting open data could help unlock annua
 Exemple : Monsanto acquired the Climate Corporation, a ompany that leverages open data to inform farmers for approximately **1.1 billion $**
 
 ---
+### A abertura de dados é um .red[investimento de longo prazo] 
+
+.center[.reduite[![](https://datactivist.coop/recife/workshop/img/image25.png)]]
+---
 class:middle,inverse,center
 
 # Para que serve dados abertos?
@@ -117,19 +123,7 @@ class:middle,inverse,center
 [Gironde (França)](https://dtc-innovation.org/projects/gironde-dataviz)
 
 ![](https://datactivist.coop/recife/workshop/./img/gironde.png)
----
-### Servir o interesse geral através de .red[um serviço público]
-.pull-left[
-![](https://datactivist.coop/recife/workshop/./img/image9.png)
-]
-.pull-right[
-* **Continuidade**: dados constantemente acessíveis e atualizados
 
-* **Adaptabilidade**: dados adaptados à procura (formatos, natureza, serviços)
-
-* **Igualdade** : dados acessíveis a todos, sem restrições ou discriminação			
-]
-			
 ---
 
 ### .red[Economia de tempo] entre departamentos diversos
@@ -152,29 +146,17 @@ Exemplo de bicicletas self-service em Nova York: comparando modelos e usos
 [FONTE](http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/)
 
 ---
-### Abrir as possibilidades de .red[cruzamento de dados]
-
-Exemplo de [Dataviz Challenge na França](https://datactivist.coop/datavizchallenge/guide/docs/dataviz.html#defi-1-les-deplacements-en-cascade): prever o nível de mistura social nas escolas de acordo com a evolução dos cursos opcionais
-
-.reduite[![](https://datactivist.coop/recife/workshop/img/image43.png)]
-
----
 
 ### Questionando .red[políticas públicas]
 
 Exemplo de dataviz de bicicletas self-service sendo utilizadas :				
 
 ![](https://datactivist.coop/recife/workshop/img/image52.png)			
-	
 
 ---
+
 ### Questionando .red[políticas públicas]
-
-Exemplo de Toulouse, workshops de mapeamento de dados 	
-
-![](https://datactivist.coop/recife/workshop/img/image53.png)
-			
-[FONTE](https://hal.archives-ouvertes.fr/hal-01829319/document)
+![](./pratoaberto.png)
 
 ---
 class:middle,inverse,center
@@ -203,36 +185,7 @@ Graças ao uso interno de dados
 
 ![](https://datactivist.coop/recife/workshop/img/image8.png) 
 Graou : toda a informação para os maquinistas a partir dos dados abertos da sncf]
----
-### Melhorar o .red[conhecimento dos sistemas de informação] 
 
-.pull-left[
-* Descubra novos dados
-
-* Relance projetos de mapeamento de dados
-
-* Identifique práticas a serem alteradas (armazenamento local, dados não utilizados ou nunca atualizados...)]
-
-.pull-right[
-![](https://datactivist.coop/recife/workshop/./img/image16.png)
-]
----
-### Revelando questões de .red[soberania relativa aos dados] 
-
-.pull-left[
-* Conheça os dados que você possui
-
-* Saiba quem é responsável pela atualizações
-
-* Saiba quais dados você não possui
-* Crie links (API) com parceiros, delegados, fornecedores de serviços
-
-* Negocie o acesso aos dados (troca)
-]
-
-.pull-right[
-.reduite[![](https://datactivist.coop/recife/workshop/img/iceberg.png)]
-]
 ---
 class:inverse,middle,center
 
@@ -253,20 +206,6 @@ class:inverse,middle,center
 
 [USAFacts](https://usafacts.org) :
 ![](https://datactivist.coop/recife/workshop/img/usafacts.gif)
-
----
-### Ajudar os cidadãos na .red[compreensão de fenômenos complexos]
-
-[Issy les Moulineaux](http://rapportfinancier.issy.com) :
-
-![](https://datactivist.coop/recife/workshop/img/image47.png)
----
-
-### Associar mais estreitamente .red[os cidadãos ao processo de consulta] 
-
-[CartoQuartiers](https://www.cartoquartiers.fr) em Nantes: 
-
-![](https://datactivist.coop/recife/workshop/./img/image50.png)			
 ---
 ### Ser mais forte juntos, e ter .red[um controle maior dos nossos dados]
 
@@ -278,6 +217,12 @@ Open Street Map vs Google Maps:
 ### Ser mais forte juntos, e ter .red[um controle maior dos nossos dados]
 
 ![](https://datactivist.coop/recife/workshop/img/off.png)
+---
+
+.center[![](yuka.gif)]
+---
+
+.center[![](sucre.gif)]
 
 ---
 ### Para a .red[ciência dos dados e o conhecimento aberto]  
@@ -290,10 +235,6 @@ Open Street Map vs Google Maps:
 
 Exemplo da base de dados de acidentes rodoviários: 
 [![](https://datactivist.coop/recife/workshop/img/image22.png)](https://www.data.gouv.fr/fr/reuses/accidents-a-paris-2006-2011/)
----
-### Para a .red[ciência dos dados e o conhecimento aberto]  
-Exemplo da base de dados de acidentes rodoviários:
-![](https://datactivist.coop/recife/workshop/img/image48.png)
 
 ---
 ### Para a .red[jornalismo de dados]
@@ -302,10 +243,6 @@ Exemplo da base de dados de acidentes rodoviários:
 				
 [source](https://www.nytimes.com/interactive/2018/03/19/upshot/race-class-white-and-black-men.html)
 
----
-### Para a .red[jornalismo de dados]
-
-[![](https://datactivist.coop/recife/workshop/img/image24.png)](https://twitter.com/i/web/status/1010012782253826048)
 				
 ---
 
@@ -327,15 +264,15 @@ class:inverse,middle,center
 # .red[...para a criação de valor econômico e social]
 
 ---
-### A abertura de dados é um .red[investimento de longo prazo] 
-
-.center[.reduite[![](https://datactivist.coop/recife/workshop/img/image25.png)]]
----
 ### Permitir o desenvolvimento de .red[novos serviços]
 
 [Chatbots](https://www.messenger.com/t/justinbikerclan) para encontrar uma bicicleta: 
 				
 ![](https://datactivist.coop/recife/workshop/img/chatbot.png)
+---
+### Permitir o desenvolvimento de .red[novos serviços]
+
+![](quiditmiam.jpg)
 ---
 
 ### Permitir o desenvolvimento de .red[novos serviços]
@@ -343,22 +280,30 @@ class:inverse,middle,center
 [Hastes conectadas](https://www.data.gouv.fr/fr/posts/data-story-1-handisco-nancy/) para guiar pessoas cegas/deficientes visuais: 
 				
 ![](https://datactivist.coop/recife/workshop/img/handisco.png)
+---
 
+### Permitir o desenvolvimento de .red[novos serviços]
+[Uma aplicação](https://www.parkingmap.fr) para encontrar mais facilmente um lugar de estacionamento
+![](parking.jpg)
 ---
 ### Permitir a integração de dados através de .red[aplicativos existentes]
 
 Waze, maps, citymapper…
 ![](https://datactivist.coop/recife/workshop/img/apps.png)
+---
+### Permitir a integração de dados através de .red[aplicativos existentes]
 
+
+![](moovit.png)
 ---
 ### Pela .red[atratividade do território]
 
-.pull-left[Os serviços são instalados em cidades onde os dados estão disponíveis, completos e de alta qualidade.
+Os serviços são instalados em cidades onde os dados estão disponíveis, completos e de alta qualidade.
 
-Aumento dos serviços disponíveis nas cidades de média dimensão, ao mesmo nível que as metrópoles mundiais em termos digitais]
+Aumento dos serviços disponíveis nas cidades de média dimensão, ao mesmo nível que as metrópoles mundiais em termos digitais
 
-.pull-right[
-![](https://datactivist.coop/recife/workshop/img/image38.png)
+
+.reduite[![](https://datactivist.coop/recife/workshop/img/image38.png)]
 ]			
 		
 ---
